@@ -1,0 +1,59 @@
+:root{
+	--AdraTextColor: rgb(0, 121, 98);
+	--AdraBackgoundColor: rgb(0, 121, 98);
+}
+
+body{
+	/*background-color: var(--AdraBackgoundColor);*/
+	background-color: rgb(243,244,246);
+}
+.bg-adra{
+	background-color: var(--AdraBackgoundColor);
+	color: #fff;
+}
+.bg-adra:active{
+	background-color: var(--AdraTextColor);
+	color: #000;
+}
+
+#login-mergin-top{
+	margin-top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#login-logo img{
+	height: 100px;
+}
+
+.form-controlM{
+	width: 100%;
+	border: 1px solid red;
+}
+.form-control:focus{
+	outline: none;
+	/*box-shadow: 0 0 5px rgba(81, 203, 238, 1) !important;*/
+	box-shadow: 0 0 5px rgba(0, 121, 98, 1) !important;
+	border:2px solid rgb(0, 121, 98, 1);!important;
+}
+
+/* ==== formAjoutIDagent ==== */
+#formAjoutIDagent input, select{
+	outline: none;
+	border: 2px solid var(--AdraBackgoundColor);
+	border-radius: 5px;
+	height: 35px;
+	font-weight: bold;
+}
+#formAjoutIDagent label {
+	color: #000;
+	font-weight: bold;
+}
+
+#formAjoutIDagent button{
+	font-weight: bold;
+}
+
+#formAjoutIDagent label.error{
+	color: red;
+}
