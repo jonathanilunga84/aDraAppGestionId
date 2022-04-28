@@ -26,7 +26,7 @@
               </div>
               <div class="input-groupM form-group col-sm-12 col-md-12 mb-3">
                 <label for="nom">Postnom:</label><br />
-                <input type="text" name="postnomModif" id="postnomModif" placeholder="Entrez le Prenom facultatif" class="form-control" />
+                <input type="text" name="postnomModif" id="postnomModif" placeholder="Entrez le Postnom facultatif" class="form-control" />
                 <span class="text-danger error-text postnomModif_error"></span>
               </div>
               <div class="input-groupM form-group col-sm-12 col-md-12 mb-3">
